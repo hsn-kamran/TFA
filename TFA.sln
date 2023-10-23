@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFA.Domain", "TFA.Domain\TFA.Domain.csproj", "{8F41467F-20B7-4F6E-981A-5A28B79BE24A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFA.Storage", "TFA.Storage\TFA.Storage.csproj", "{B9B1B0F2-44CB-48D6-AD99-84D4E07D4EDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFA.Api", "TFA.Api\TFA.Api.csproj", "{06268B10-EE1A-4B29-8F14-492EE3E977C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFA.Domain.Tests", "TFA.Domain.Tests\TFA.Domain.Tests.csproj", "{2999B958-133E-4762-826D-3E1C1CDE43D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{7F5AA9F3-1559-4D63-8A89-041AB1B1FD45}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		TFA.Api\docker-compose.yml = TFA.Api\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFA.Storage.DependencyInjection", "TFA.Storage.DependencyInjection\TFA.Storage.DependencyInjection.csproj", "{221C4661-1B35-449F-932C-F9E68C6F5964}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TFA.Domain.DependencyInjection", "TFA.Domain.DependencyInjection\TFA.Domain.DependencyInjection.csproj", "{31B3D29D-DD4B-466E-A96F-3D0B52058C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFA.E2E", "TFA.E2E\TFA.E2E.csproj", "{231A5FA6-47A1-412D-A855-D9EB6DD7579C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F41467F-20B7-4F6E-981A-5A28B79BE24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F41467F-20B7-4F6E-981A-5A28B79BE24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F41467F-20B7-4F6E-981A-5A28B79BE24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F41467F-20B7-4F6E-981A-5A28B79BE24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B1B0F2-44CB-48D6-AD99-84D4E07D4EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B1B0F2-44CB-48D6-AD99-84D4E07D4EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B1B0F2-44CB-48D6-AD99-84D4E07D4EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B1B0F2-44CB-48D6-AD99-84D4E07D4EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06268B10-EE1A-4B29-8F14-492EE3E977C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06268B10-EE1A-4B29-8F14-492EE3E977C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06268B10-EE1A-4B29-8F14-492EE3E977C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06268B10-EE1A-4B29-8F14-492EE3E977C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2999B958-133E-4762-826D-3E1C1CDE43D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2999B958-133E-4762-826D-3E1C1CDE43D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2999B958-133E-4762-826D-3E1C1CDE43D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2999B958-133E-4762-826D-3E1C1CDE43D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221C4661-1B35-449F-932C-F9E68C6F5964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221C4661-1B35-449F-932C-F9E68C6F5964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221C4661-1B35-449F-932C-F9E68C6F5964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221C4661-1B35-449F-932C-F9E68C6F5964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B3D29D-DD4B-466E-A96F-3D0B52058C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B3D29D-DD4B-466E-A96F-3D0B52058C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B3D29D-DD4B-466E-A96F-3D0B52058C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B3D29D-DD4B-466E-A96F-3D0B52058C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231A5FA6-47A1-412D-A855-D9EB6DD7579C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231A5FA6-47A1-412D-A855-D9EB6DD7579C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231A5FA6-47A1-412D-A855-D9EB6DD7579C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231A5FA6-47A1-412D-A855-D9EB6DD7579C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96AC2B8A-9A00-4392-8CBA-610558F6997E}
+	EndGlobalSection
+EndGlobal
